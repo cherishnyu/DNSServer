@@ -48,7 +48,7 @@ def decrypt_with_aes(encrypted_data, password, salt):
 
 
 salt = b'Tandon'  # Remember it should be a byte-object
-password = 'your.nyu.email@nyu.edu'  # Placeholder: Replace with your actual NYU email address registered in Gradescope
+password = 'cga8081@nyu.edu'  # Placeholder: Replace with your actual NYU email address registered in Gradescope
 input_string = 'AlwaysWatching'
 
 encrypted_value = encrypt_with_aes(input_string, password, salt)  # exfil function
